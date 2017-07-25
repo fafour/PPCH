@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">กฎหมาย ป.ป.ช.</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="news">ข่าวสาร</string>
+    <string name="law_103">มาตรา 103</string>
+    <string name="law_100">มาตรา 100</string>
+    <string name="aboutus">เกี่ยวกับ ป.ป.ช.</string>
+
+    <string name="get_cert">รับเกียรติบัตร</string>
+    <string name="exam_solve">ดูเฉลยคำตอบ</string>
+    <string name="request_email">รับเกียรติบัตรทางอีเมล์</string>
+
+    <string name="error_json_parse">การคืนค่าจาก Server ไม่ถูกต้อง กรุณาติดต่อผู้ดูแลระบบ</string>
+    <string name="error_network_timeout">Network Timeout! กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="error_auth_failure">Authentication Failure!</string>
+    <string name="error_server">Server Error! กรุณาติดต่อผู้ดูแลระบบ</string>
+    <string name="error_network">Network Error! กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+
+
+    <string name="about">(Office of the National Anti-Corruption Commission) เป็นสำนักงานเลขานุการของคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ เป็นหน่วยงานที่เป็นอิสระ มีฐานะเทียบเท่ากรมตามกฎหมายว่าด้วยระเบียบบริหารราชการแผ่นดิน มีบทบาทเป็นองค์กรหลักในการดำเนินนโยบายด้านการป้องกันและปราบปราการทุจริต ผลักดันให้ประเทศ   มีการป้องกันการทุจริตที่เป็นสากล การตรวจสอบทรัพย์สินของผู้ดำรงตำแหน่งทางการเมือง และเจ้าหน้าที่ของรัฐที่มีมาตรฐาน มีการปราบปรามการทุจริตที่มีประสิทธิภาพ และสนับสนุนการป้องกันและปราบปรามการทุจริตกับทุกภาคส่วน รวมทั้งเสริมสร้างการบริหารจัดการภาครัฐที่ดี มีความโปร่งใส ตรวจสอบได้ประกอบด้วยภารกิจหลักอยู่ 3 ด้าน ได้แก่ งานป้องกันการทุจริต งานปราบปรามการทุจริต และงานตรวจสอบทรัพย์สิน</string>
+
+    <string name="about_head">สำนักงานคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ</string>
+</resources>

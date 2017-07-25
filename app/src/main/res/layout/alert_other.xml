@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_gap" >
+
+    <th.go.nacc.nacc_law.component.EditTextPlus
+        nister:customFont="Font-Black.ttf"
+        android:textSize="@dimen/text_small"
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@drawable/bg_edittext"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/tiny_margin_gap"/>
+
+</LinearLayout>

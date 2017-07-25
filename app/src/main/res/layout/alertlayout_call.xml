@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_gap">
+
+    <th.go.nacc.nacc_law.component.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tiny_margin_gap"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="สายด่วน ป.ป.ช."
+        android:textSize="@dimen/text_small"
+        nister:customFont="Font-Black.ttf" />
+
+    <th.go.nacc.nacc_law.component.TextViewPlus
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tiny_margin_gap"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:text="1205"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        nister:customFont="Font-Black.ttf" />
+
+</LinearLayout>

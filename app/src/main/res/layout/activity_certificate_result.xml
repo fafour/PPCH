@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/viewAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/small_margin_gap"
+        android:layout_marginTop="@dimen/small_margin_gap"
+        android:weightSum="1.0">
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="1dp"
+            android:layout_weight="0.15" />
+
+        <th.go.nacc.nacc_law.component.ButtonPlus
+            android:id="@+id/btnRequest"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:background="@drawable/bg_rec_violent"
+            android:onClick="requestEmailAction"
+            android:text="แชร์เกียรติบัตร"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="1dp"
+            android:layout_weight="0.15" />
+    </LinearLayout>
+
+    <!--android:src="@drawable/cert"-->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgCertficiate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/viewAction"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin_gap"
+        android:layout_marginRight="@dimen/margin_gap"
+        android:layout_marginTop="@dimen/margin_gap"
+        android:scaleType="centerInside" />
+</RelativeLayout>

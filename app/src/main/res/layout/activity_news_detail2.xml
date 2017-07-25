@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/selector_play" />
+
+        <SeekBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:indeterminateTint="@color/colorPrimary"
+            android:indeterminateTintMode="src_atop"
+            android:thumb="@drawable/list_cheked" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="04:00"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_tiny"
+            nister:customFont="Font-Black.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="A"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+
+        <SeekBar
+            android:id="@+id/seek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:max="5"
+            android:thumb="@drawable/list_cheked" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="A"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_large"
+            nister:customFont="Font-Black.ttf" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/viewSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/small_margin_gap">
+
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:id="@+id/pager_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_gradius"
+                android:clipChildren="false"
+                android:paddingBottom="10dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/coverflow"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_h"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:clipChildren="false" />
+            </FrameLayout>
+
+            <View
+                android:id="@+id/viewSeparate"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/viewSubject"
+                android:background="@color/separate_color"
+                android:visibility="gone" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/lblTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="@dimen/text_small"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/lblDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_small"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.ButtonPlus
+                android:id="@+id/btnLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:background="@drawable/bg_rec_violent"
+                android:onClick="linkAction"
+                android:text="ไปยังเนื้อข่าวประชาสัมพันธ์"
+                android:textColor="@drawable/text_color_white_black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

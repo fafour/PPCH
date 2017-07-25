@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="รหัสประชาชน"
+            android:textSize="@dimen/text_micro"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.EditTextPlus
+            android:id="@+id/txtIDCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/tiny_margin_gap"
+            android:background="@drawable/bg_rec_white"
+            android:inputType="number"
+            android:maxLength="13"
+            android:padding="10dp"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/margin_gap"
+            android:text="ชื่อ"
+            android:textSize="@dimen/text_micro"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.EditTextPlus
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/tiny_margin_gap"
+            android:background="@drawable/bg_rec_white"
+            android:padding="10dp"
+            android:paddingLeft="@dimen/little_margin_gap"
+            android:paddingRight="@dimen/little_margin_gap"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/margin_gap"
+            android:text="นามสกุล"
+            android:textSize="@dimen/text_micro"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.EditTextPlus
+            android:id="@+id/txtLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/tiny_margin_gap"
+            android:background="@drawable/bg_rec_white"
+            android:padding="10dp"
+            android:paddingLeft="@dimen/little_margin_gap"
+            android:paddingRight="@dimen/little_margin_gap"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/margin_gap"
+            android:text="ประเภทผู้ใช้งาน"
+            android:textSize="@dimen/text_micro"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:id="@+id/btn_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny_margin_gap"
+            android:background="@color/white"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/next"
+            android:padding="5dp"
+            android:text="ประชาชน"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_subonate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="สังกัด"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_subonate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="สังกัด"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_subonate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="สังกัด(ย่อย)"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_subonate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="สังกัด(ย่อย)"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_ministry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="กระทรวง"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_ministry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="กระทรวง"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="กรม"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="กรม"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="ตำแหน่ง"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="ตำแหน่ง"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_enterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="รัฐวิสาหกิจ"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_enterprise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="รัฐวิสาหกิจ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_free"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="องค์กรอิสระ"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_free"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="องค์กรอิสระ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_province"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="จังหวัด"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="จังหวัด"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="อำเภอ"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="อำเภอ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_list_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/margin_gap"
+                android:text="รายชื่อ อปท."
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_list_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_margin_gap"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/next"
+                android:padding="5dp"
+                android:text="รายชื่อ อปท"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+        <th.go.nacc.nacc_law.component.ButtonPlus
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_register"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/medium_margin_gap"
+            android:background="@drawable/bg_rec_green"
+            android:onClick="loginAction"
+            android:text="ลงทะเบียน/เข้าสู่ระบบ"
+            android:textColor="@drawable/text_color_white_black"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+    <th.go.nacc.nacc_law.component.TextViewPlus
+        android:id="@+id/lblLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        nister:customFont="Font-Black.ttf" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/little_margin_gap"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:id="@+id/lblName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="ทดสอบความรู้พื้นฐาน"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:id="@+id/lblPoint"
+            android:layout_width="match_parent"
+            android:padding="2dp"
+            android:layout_height="wrap_content"
+            android:text="คะแนนสูงสุด 18 คะแนน"
+            android:textSize="24sp"
+            nister:customFont="Font-Black.ttf" />
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/rating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="3"
+        android:rating="1"
+        android:stepSize="1" />
+
+</LinearLayout>

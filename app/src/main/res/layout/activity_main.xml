@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/selector_home"
+                android:gravity="center"
+                android:text="หน้าหลัก"
+                android:textColor="@drawable/selector_text_main"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_test"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/selector_test"
+                android:gravity="center"
+                android:text="แบบทดสอบ"
+                android:textColor="@drawable/selector_text_main"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/selector_search"
+                android:gravity="center"
+                android:text="ค้นหา"
+                android:textColor="@drawable/selector_text_main"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_news"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/selector_news"
+                android:gravity="center"
+                android:text="ข่าวสาร"
+                android:textColor="@drawable/selector_text_main"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:id="@+id/btn_profile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/selector_profile"
+                android:gravity="center"
+                android:text="บัญชีผู้ใช้"
+                android:textColor="@drawable/selector_text_main"
+                android:textSize="@dimen/text_micro"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutCurrentNews"
+        android:layout_margin="1dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/little_margin_gap"
+        android:onClick="viewNewsDetailAction"
+        android:background="#ee000000">
+
+        <ImageView
+            android:onClick="closeCurrentNewsAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/little_margin_gap"/>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#ee555555"
+            android:layout_marginRight="@dimen/little_margin_gap"/>
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            nister:customFont="Font-Bold.ttf"
+            android:textSize="@dimen/text_small"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblNewsTitle"
+            android:lineSpacingMultiplier="0.8"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+    </LinearLayout>
+</FrameLayout>

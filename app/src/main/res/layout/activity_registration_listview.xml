@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="รหัสประชาชน"
+            android:textSize="@dimen/text_micro"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.EditTextPlus
+            android:id="@+id/txtIDCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/tiny_margin_gap"
+            android:background="@drawable/bg_rec_white"
+            android:inputType="number"
+            android:maxLength="13"
+            android:padding="10dp"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/margin_gap"
+            android:text="ชื่อ"
+            android:textSize="@dimen/text_micro"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.EditTextPlus
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/tiny_margin_gap"
+            android:background="@drawable/bg_rec_white"
+            android:padding="10dp"
+            android:paddingLeft="@dimen/little_margin_gap"
+            android:paddingRight="@dimen/little_margin_gap"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/margin_gap"
+            android:text="นามสกุล"
+            android:textSize="@dimen/text_micro"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.EditTextPlus
+            android:id="@+id/txtLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/tiny_margin_gap"
+            android:background="@drawable/bg_rec_white"
+            android:padding="10dp"
+            android:paddingLeft="@dimen/little_margin_gap"
+            android:paddingRight="@dimen/little_margin_gap"
+            android:textSize="@dimen/text_normal"
+            nister:customFont="Font-Black.ttf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rootview"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

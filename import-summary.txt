@@ -1,0 +1,55 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* build.xml
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => libraryProject/src/main/AndroidManifest.xml
+* assets/ => libraryProject/src/main/assets
+* libs/commons-codec-1.6.jar => libraryProject/libs/commons-codec-1.6.jar
+* libs/commons-io-2.4.jar => libraryProject/libs/commons-io-2.4.jar
+* libs/commons-logging-1.1.1.jar => libraryProject/libs/commons-logging-1.1.1.jar
+* libs/fluent-hc-4.2.5.jar => libraryProject/libs/fluent-hc-4.2.5.jar
+* libs/httpclient-4.3.3.jar => libraryProject/libs/httpclient-4.3.3.jar
+* libs/httpclient-cache-4.2.5.jar => libraryProject/libs/httpclient-cache-4.2.5.jar
+* libs/httpcore-4.3.2.jar => libraryProject/libs/httpcore-4.3.2.jar
+* libs/httpmime-4.3.3.jar => libraryProject/libs/httpmime-4.3.3.jar
+* libs/volley.jar => libraryProject/libs/volley.jar
+* lint.xml => libraryProject/lint.xml
+* res/ => libraryProject/src/main/res/
+* src/ => libraryProject/src/main/java/
+* src/.DS_Store => libraryProject/src/main/resources/.DS_Store
+* src/co/.DS_Store => libraryProject/src/main/resources/co/.DS_Store
+* src/co/th/.DS_Store => libraryProject/src/main/resources/co/th/.DS_Store
+* src/co/th/nister/.DS_Store => libraryProject/src/main/resources/co/th/nister/.DS_Store
+* src/co/th/nister/libraryproject/.DS_Store => libraryProject/src/main/resources/co/th/nister/libraryproject/.DS_Store
+* src/co/th/nister/libraryproject/component/.DS_Store => libraryProject/src/main/resources/co/th/nister/libraryproject/component/.DS_Store
+* src/com/.DS_Store => libraryProject/src/main/resources/com/.DS_Store
+* src/com/android/.DS_Store => libraryProject/src/main/resources/com/android/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

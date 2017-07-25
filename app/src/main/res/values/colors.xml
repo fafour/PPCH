@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="separate_color">#dddddd</color>
+    <color name="list_separate_color">#eeeeee</color>
+    <color name="content_header">#F9F9F9</color>
+
+    <color name="question_header">#EBECEB</color>
+
+    <color name="black_gray">#444</color>
+    <color name="blue">#005AFF</color>
+    <color name="orange">#FF6B00</color>
+    <color name="light_gray">#FAFBFC</color>
+    <color name="green">#4C950E</color>
+
+
+    <color name="colorPrimary">#61126D</color>
+    <color name="colorPrimaryDark">#36053E</color>
+    <color name="colorAccent">#4C950E</color>
+
+    <color name="white_trans">#90ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_trans">#50000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="red">#C30016</color>
+
+    <color name="gray">#959595</color>
+    <color name="gray_light">#f0f0ef</color>
+    <color name="gray_light2">#d8d8d8</color>
+</resources>

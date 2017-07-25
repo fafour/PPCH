@@ -1,0 +1,144 @@
+[
+    {
+        "outputFile": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 70,
+                    "endOffset": 121
+                },
+                "from": {
+                    "file": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 70,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 126,
+                    "endColumn": 72,
+                    "endOffset": 194
+                },
+                "from": {
+                    "file": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 126,
+                        "endColumn": 72,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 199,
+                    "endColumn": 124,
+                    "endOffset": 319
+                },
+                "from": {
+                    "file": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endColumn": 124,
+                        "endOffset": 319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 324,
+                    "endColumn": 113,
+                    "endOffset": 433
+                },
+                "from": {
+                    "file": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 324,
+                        "endColumn": 113,
+                        "endOffset": 433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 438,
+                    "endColumn": 73,
+                    "endOffset": 507
+                },
+                "from": {
+                    "file": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 438,
+                        "endColumn": 73,
+                        "endOffset": 507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 512,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 798
+                },
+                "from": {
+                    "file": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 803,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 958
+                },
+                "from": {
+                    "file": "C:\\Users\\Fafour\\Desktop\\Siamsoft\\PPCH\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 803,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 958
+                    }
+                }
+            }
+        ]
+    }
+]

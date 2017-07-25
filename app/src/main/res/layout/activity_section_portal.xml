@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0">
+
+        <View
+            android:layout_width="0dip"
+            android:layout_weight="0.15"
+            android:layout_height="1dp" />
+
+        <th.go.nacc.nacc_law.view.ButtonContentView
+            android:layout_width="0dip"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnContent"
+            android:src="@drawable/btn_content"
+            android:onClick="openContentAction"/>
+
+        <!--
+        <th.go.nacc.nacc_law.component.ButtonPlus
+            nister:customFont="Font-Black.ttf"
+            android:background="@drawable/btn_green_orange"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@drawable/text_color_white_black"
+            android:text="ศึกษาเนื้อหาสาระ"
+            android:layout_width="0dip"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnContent"
+            android:onClick="openContentAction"/>
+            -->
+        <View
+            android:layout_width="0dip"
+            android:layout_weight="0.15"
+            android:layout_height="1dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/small_margin_gap"
+        android:id="@+id/layoutExam"
+        android:layout_above="@id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0">
+
+        <View
+            android:layout_width="0dip"
+            android:layout_weight="0.15"
+            android:layout_height="1dp" />
+
+        <th.go.nacc.nacc_law.view.ButtonExamView
+            android:layout_width="0dip"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExam"
+            android:src="@drawable/btn_exam"
+            android:onClick="openExamAction"/>
+
+
+        <!--
+        <th.go.nacc.nacc_law.component.ButtonPlus
+            nister:customFont="Font-Black.ttf"
+            android:background="@drawable/bg_orange_green"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@drawable/text_color_white_black"
+            android:text="ทดสอบความรู้"
+            android:layout_width="0dip"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExam"
+            android:onClick="openExamAction"/>
+            -->
+        <View
+            android:layout_width="0dip"
+            android:layout_weight="0.15"
+            android:layout_height="1dp" />
+    </LinearLayout>
+</LinearLayout>

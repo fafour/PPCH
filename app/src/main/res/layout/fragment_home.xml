@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/law" />
+
+                <th.go.nacc.nacc_law.component.TextViewPlus
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="ศึกษากฏหมาย ป.ป.ช."
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_tiny"
+                    nister:customFont="Font-Black.ttf" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/multimedia" />
+
+                <th.go.nacc.nacc_law.component.TextViewPlus
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="สื่อการเรียนรู้"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_tiny"
+                    nister:customFont="Font-Black.ttf" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/multithought" />
+
+                <th.go.nacc.nacc_law.component.TextViewPlus
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="สื่อการเรียนรู้\nปรับฐานความคิด"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_tiny"
+                    nister:customFont="Font-Black.ttf" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/relevantlaw" />
+
+                <th.go.nacc.nacc_law.component.TextViewPlus
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="กฏหมายที่เกี่ยวข้อง"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_tiny"
+                    nister:customFont="Font-Black.ttf" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/phone" />
+
+                <th.go.nacc.nacc_law.component.TextViewPlus
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="สายด่วน ป.ป.ช."
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_tiny"
+                    nister:customFont="Font-Black.ttf" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/about" />
+
+                <th.go.nacc.nacc_law.component.TextViewPlus
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="เกี่ยวกับสำนักงาน ป.ป.ช."
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_tiny"
+                    nister:customFont="Font-Black.ttf" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_margin="5dp"
+            android:src="@drawable/naccphoto" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_head"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_micro"
+                android:textStyle="bold" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_micro" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

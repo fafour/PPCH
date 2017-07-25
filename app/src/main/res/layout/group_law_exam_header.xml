@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingLeft="@dimen/tiny_margin_gap"
+    android:paddingRight="@dimen/tiny_margin_gap"
+    android:paddingTop="@dimen/small_margin_gap"
+    android:paddingBottom="@dimen/small_margin_gap">
+
+    <th.go.nacc.nacc_law.component.TextViewPlus
+        nister:customFont="Font-Black.ttf"
+        android:textSize="@dimen/text_small"
+        android:textColor="@android:color/white"
+        android:layout_width="@dimen/level_image_width"
+        android:layout_height="@dimen/level_image_height"
+        android:text="ระดับ 1"
+        android:id="@+id/lblLevel"
+        android:gravity="center"
+        android:background="@drawable/bg_rec_gray_dark"
+        android:layout_marginLeft="@dimen/little_margin_gap"
+        android:layout_gravity="center_vertical"/>
+
+
+    <th.go.nacc.nacc_law.component.TextViewPlus
+        android:layout_alignParentRight="true"
+        nister:customFont="Font-Black.ttf"
+        android:textSize="@dimen/text_small"
+        android:textColor="@android:color/white"
+        android:layout_width="@dimen/current_number_width"
+        android:layout_height="@dimen/current_number_height"
+        android:id="@+id/lblNumberStatus"
+        android:text="5 / 20"
+        android:gravity="center"
+        android:background="@drawable/bg_rec_gray_dark"
+        android:layout_marginRight="@dimen/little_margin_gap"
+        android:layout_gravity="center_vertical"/>
+
+
+</RelativeLayout>

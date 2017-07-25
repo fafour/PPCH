@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgBullet"
+        android:layout_width="@dimen/content_bullet_height"
+        android:layout_height="@dimen/content_bullet_height" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_gap"
+            android:layout_marginRight="@dimen/margin_gap"
+            android:layout_toRightOf="@id/imgBullet"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:lineSpacingMultiplier="0.8"
+            android:maxLines="3"
+
+            android:text="มาตรา 100 คือ?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+
+        <!--<th.go.nacc.nacc_law.component.TextViewPlus-->
+            <!--android:id="@+id/tv_des"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="@dimen/margin_gap"-->
+            <!--android:layout_marginRight="@dimen/margin_gap"-->
+            <!--android:layout_toRightOf="@id/imgBullet"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:lineSpacingMultiplier="0.8"-->
+            <!--android:maxLines="3"-->
+            <!--android:text="มาตรา 100 คือ?"-->
+            <!--android:textColor="@drawable/text_color_blackgray_green"-->
+            <!--android:textSize="@dimen/text_tiny"-->
+            <!--nister:customFont="Font-Black.ttf" />-->
+    </LinearLayout>
+</LinearLayout>

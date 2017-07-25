@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/btn_100"
+            android:background="@drawable/selector_line"
+            android:gravity="center"
+            android:textColor="@drawable/selector_text_main"
+            android:padding="5dp"
+            android:text="มาตรา 100"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selector_text_main"
+            android:id="@+id/btn_103"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_line"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="มาตรา 103"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:childDivider="@color/list_separate_color"
+        android:divider="@color/list_separate_color"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white"
+        android:groupIndicator="@null"
+        />
+
+
+</LinearLayout>

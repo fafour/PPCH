@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/layout_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_comment_1"
+                android:gravity="center"
+                android:text="น้อยมาก"
+                android:textSize="@dimen/text_small"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_comment_2"
+                android:gravity="center"
+                android:text="น้อย"
+                android:textSize="@dimen/text_small"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_comment_3"
+                android:gravity="center"
+                android:text="พอใช้"
+                android:textSize="@dimen/text_small"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_comment_4"
+                android:gravity="center"
+                android:text="ดี"
+                android:textSize="@dimen/text_small"
+                nister:customFont="Font-Black.ttf" />
+
+            <th.go.nacc.nacc_law.component.TextViewPlus
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_comment_5"
+                android:gravity="center"
+                android:text="ดีมาก"
+                android:textSize="@dimen/text_small"
+                nister:customFont="Font-Black.ttf" />
+
+        </LinearLayout>
+
+
+        <th.go.nacc.nacc_law.component.EditTextPlus
+            android:id="@+id/txtLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:gravity="start"
+            android:hint="แสดงความคิดเห็น"
+            android:lines="8"
+            android:padding="10dp"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+
+
+        <th.go.nacc.nacc_law.component.ButtonPlus
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_ok"
+            android:layout_marginTop="@dimen/medium_margin_gap"
+            android:background="@drawable/bg_rec_violent"
+            android:paddingLeft="@dimen/big_margin_gap"
+            android:paddingRight="@dimen/big_margin_gap"
+            android:text="ส่ง"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+
+
+    </LinearLayout>
+</ScrollView>

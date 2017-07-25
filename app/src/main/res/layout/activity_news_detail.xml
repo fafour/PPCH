@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/small_margin_gap"
+        >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/imgNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            nister:customFont="Font-Black.ttf"
+            android:textSize="@dimen/text_small"
+            android:layout_marginTop="@dimen/small_margin_gap"
+            android:lineSpacingMultiplier="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblTitle"/>
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            nister:customFont="Font-Black.ttf"
+            android:textSize="@dimen/text_small"
+            android:layout_marginTop="@dimen/small_margin_gap"
+            android:lineSpacingMultiplier="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:id="@+id/lblDetail"/>
+
+        <th.go.nacc.nacc_law.component.ButtonPlus
+            nister:customFont="Font-Black.ttf"
+            android:background="@drawable/bg_rec_violent"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@drawable/text_color_white_black"
+            android:text="ไปยังเนื้อข่าวประชาสัมพันธ์"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLink"
+            android:onClick="linkAction"
+            android:layout_marginTop="@dimen/margin_gap"/>
+    </LinearLayout>
+</ScrollView>

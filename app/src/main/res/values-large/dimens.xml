@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="tiny_margin_gap">8dp</dimen>
+    <dimen name="little_margin_gap">16dp</dimen>
+    <dimen name="small_margin_gap">20dp</dimen>
+    <dimen name="margin_gap">30dp</dimen>
+    <dimen name="medium_margin_gap">40dp</dimen>
+    <dimen name="big_margin_gap">50dp</dimen>
+
+    <dimen name="logo_width">150dp</dimen>
+    <dimen name="logo_height">200dp</dimen>
+
+    <dimen name="logo_width_land">72dp</dimen>
+    <dimen name="logo_height_land">108dp</dimen>
+
+    <dimen name="text_micro">24sp</dimen>
+    <dimen name="text_tiny">28sp</dimen>
+    <dimen name="text_little">30sp</dimen>
+    <dimen name="text_small">32sp</dimen>
+    <dimen name="text_normal">34sp</dimen>
+    <dimen name="text_big">36sp</dimen>
+    <dimen name="text_large">38sp</dimen>
+    <dimen name="text_large2">40sp</dimen>
+    <dimen name="text_large3">42sp</dimen>
+
+    <dimen name="arrow_width">46dp</dimen>
+    <dimen name="arrow_height">32dp</dimen>
+
+    <dimen name="level_bullet_width">20dp</dimen>
+    <dimen name="level_bullet_height">95dp</dimen>
+
+    <dimen name="content_bullet_width">54dp</dimen>
+    <dimen name="content_bullet_height">95dp</dimen>
+
+    <dimen name="level_image_width">90dp</dimen>
+    <dimen name="level_image_height">30dp</dimen>
+
+    <dimen name="current_number_width">68dp</dimen>
+    <dimen name="current_number_height">30dp</dimen>
+
+    <dimen name="pdf_image_width">54dp</dimen>
+    <dimen name="pdf_image_height">54dp</dimen>
+
+    <dimen name="icon_width">24dp</dimen>
+    <dimen name="icon_height">24dp</dimen>
+
+    <dimen name="image_padding">-30dp</dimen>
+    <dimen name="image_h">280dp</dimen>
+</resources>

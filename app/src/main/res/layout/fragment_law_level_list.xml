@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:id="@+id/btn_100"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_line"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="มาตรา 100"
+            android:textColor="@drawable/selector_text_main"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:id="@+id/btn_103"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_line"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="มาตรา 103"
+            android:textColor="@drawable/selector_text_main"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/viewSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/small_margin_gap">
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:lineSpacingMultiplier="0.8"
+            android:text="เลือกทำแบบทดสอบตามระดับด้านล่างนี้ เมื่อทำแบบทดสอบผ่านแล้ว คุณจะได้รับเกียรติบัตร"
+            android:textSize="@dimen/text_small"
+            nister:customFont="Font-Black.ttf" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewSeparate"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/separate_color" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:divider="@color/list_separate_color"
+        android:dividerHeight="1dp" />
+</LinearLayout>

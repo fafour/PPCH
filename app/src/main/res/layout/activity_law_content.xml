@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nister="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:background="@color/content_header"
+        android:padding="@dimen/little_margin_gap">
+
+        <th.go.nacc.nacc_law.component.TextViewPlus
+            nister:customFont="Font-Black.ttf"
+            android:textSize="@dimen/text_small"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:lineSpacingMultiplier="0.8"
+            android:lines="3"
+            android:text="คุณสามารถทำแบบทดสอบเพื่อขอรับ เกียรติบัตรได้"/>
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45">
+
+            <th.go.nacc.nacc_law.component.ButtonPlus
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/big_margin_gap"
+                nister:customFont="Font-Black.ttf"
+                android:textColor="@drawable/text_color_black_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_orange_green"
+                android:textSize="@dimen/text_small"
+                android:text="แบบทดสอบ"
+                android:onClick="doExamAction"/>
+
+
+            <ImageView
+                android:layout_width="@dimen/arrow_width"
+                android:layout_height="@dimen/arrow_height"
+                android:src="@drawable/arrow_curved"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/separate_color"/>
+
+    <ExpandableListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:childDivider="@color/list_separate_color"
+        android:divider="@color/list_separate_color"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white"
+        android:groupIndicator="@null"
+        />
+
+</LinearLayout>

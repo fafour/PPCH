@@ -1,0 +1,11 @@
+<resources>
+
+	<string name="network_unavailable_title">Network Unavaialbe!</string>
+	<string name="network_unavailable_detail">Please check your internet connection and try again later.</string>
+	
+    <string name="network_unavailable">Network Unavailable! Please connect internet connection and try again later.</string>
+    
+    <string name="error_form_password_wrong">รหัสผ่านผิดพลาด!</string>
+    
+    <string name="error_input_required">This field is required!</string>
+</resources>
